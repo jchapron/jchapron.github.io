@@ -1,0 +1,19 @@
+# Jekyll
+_site/
+*-cache/
+.jekyll-metadata
+
+# Files
+.DS_Store
+*.swp
+*~
+
+# Folders
+/vendor
+bbin/
+bin/
+coverage
+gh-pages/
+pkg/
+test/dest
+tmp/*
