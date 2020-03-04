@@ -1,10 +1,10 @@
 # An early look at Redux - Getting started
 #### 14 August 2015
 
-As Redux is about to hit the 1.0 release, I decided to take some time to write a serie of articles on the subject to share my experience with it.
+As Redux is about to hit the 1.0 release, I decided to take some time to write an article on the subject to share my experience.
 I recently had to pick a "flux implementation" for a client app and so far working with Redux has been a pleasure.
 
-#### Why Redux ?
+#### Why Redux?
 
 Redux defines itself as a predictable state container for JavaScript apps. Redux is inspired by [Flux][1] and [Elm][2]. If you come from the Flux world, I encourage you to read how Redux is related in the ["Prior Art chapter"][3] of the new (awesome) docs !
 
@@ -160,7 +160,7 @@ import * as reducers from '../reducers';
 const reducer = combineReducers(reducers);
 const store = createStore(reducer);
 ```
-To create the store we use the createStore function that we overrided in our devTools file as well as a map of all our reducers. The ES6 feature import * as reducers gives us an object looking like { key: fn(state, action), ... }. It's a nice way to construct the argument for combineReducers.
+To create the store we use the createStore function that we've overridden in our devTools file as well as a map of all our reducers. The ES6 feature import * as reducers gives us an object looking like { key: fn(state, action), ... }. It's a nice way to construct the argument for combineReducers.
 
 ```jsx
 export default class App extends Component {
@@ -365,7 +365,7 @@ import { FriendList, AddFriendInput } from '../components';
 }))
 export default class FriendListApp extends Component {
 ```
-Oh god what is that !? Ok don't worry this is an optional ES2016 feature called a decorator. They are a handy way of calling high order functions. The equivalent would be `connect(select)(FriendListApp);` where select is a function that returns what we did here.
+Oh god what is that!? OK don't worry this is an optional ES2016 feature called a decorator. They are a handy way of calling high order functions. The equivalent would be `connect(select)(FriendListApp);` where select is a function that returns what we did here.
 
 ```jsx
   static propTypes = {
@@ -391,7 +391,7 @@ We use bindActionCreators to wrap our action creators with a dispatch call. The 
 
 What happens next is classic React stuff. We bind the functions to onClick, onChange or onKeyDown properties to handle user interactions.
 If you're interested in how to do this, you can refer to the full code.
-At this point, you get the magic feeling of a working redux/react application. As displayed in the GIF, you are logging all the actions and can play with the time travel. Developping is so nice when you can do some actions, encounter a bug, rewind, fix it and replay the sequence with the bug corrected.
+At this point, you get the magic feeling of a working redux/react application. As displayed in the GIF, you are logging all the actions and can play with the time travel. Developing is so nice when you can do some actions, encounter a bug, rewind, fix it and replay the sequence with the bug corrected.
 
 ## Wrapping up
 

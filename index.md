@@ -1,4 +1,7 @@
-# Hello world!
+---
+layout: home
+title: Hello world
+---
 
 I am Jérôme 👋
 
@@ -18,9 +21,3 @@ at [contact@jchapron.com](mailto:contact+blog@jchapron.com)
 
 * Javascript: [An early look at Redux - Getting started](/2015/08/14/getting-started-with-redux)
 
-#### 2020 (I took quite a long break)
-
-_Coming soon_
-
-* Ruby: Processes, threads and fibers
-* Ruby: Understanding the Async ecosystem

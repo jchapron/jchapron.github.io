@@ -1,0 +1,14 @@
+remote_theme: thelehhman/plainwhite-jekyll
+theme: plainwhite
+
+plainwhite:
+  name: Jérôme Chapron
+  tagline: Rubyist
+  date_format: "%b %-d, %Y"
+  analytics_id: "UA-66324359-1"
+  sitemap: true
+
+  social_links:
+    twitter: jeromechapron
+    github: jchapron
+    linkedIn: in/jeromechapron
