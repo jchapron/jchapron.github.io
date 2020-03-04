@@ -1,5 +1,12 @@
-# An early look at Redux - Getting started
-#### 14 August 2015
+---
+layout: post
+title: An early look at Redux - Getting started
+date: 2015-08-14
+tags:
+  -javascript
+  -redux
+  -react
+---
 
 As Redux is about to hit the 1.0 release, I decided to take some time to write an article on the subject to share my experience.
 I recently had to pick a "flux implementation" for a client app and so far working with Redux has been a pleasure.
