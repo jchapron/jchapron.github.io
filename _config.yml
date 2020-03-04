@@ -1,5 +1,7 @@
 remote_theme: thelehhman/plainwhite-jekyll
-theme: plainwhite
+
+gems:
+  - jekyll-seo-tag
 
 plainwhite:
   name: Jérôme Chapron
